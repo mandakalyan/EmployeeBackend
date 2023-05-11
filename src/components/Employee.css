@@ -1,0 +1,228 @@
+body{
+  width:100%;
+}
+.employee-tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-weight: bold;
+  margin-right: 10px;
+  padding-top: 5px
+  
+}
+
+.toggle {
+  background:none;
+  border: none;
+  color: #999;
+  font-size: 16px;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.toggle:hover {
+  cursor: pointer;
+  color: #333;
+}
+
+.children {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.employee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.employee:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.employee:first-child {
+  margin-top: 0;
+}
+
+.employee:last-child {
+  margin-bottom: 0;
+}
+
+.employee-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.employee-position {
+  font-size: 14px;
+  color: #999;
+  margin-right: 10px;
+}
+
+.employee-level {
+  font-size: 14px;
+  color: #999;
+}
+
+.employee-leaf {
+  background-color: #f0f0f0;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200%;
+  height: 80px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 0 2000px;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.user-icon {
+
+   height: 48px;
+   margin-right: 5190px;
+  
+  }
+
+.logo {
+  height: 50px;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  margin-right: 5190px;
+ 
+ 
+}
+
+.user-icon {
+  height: 48px;
+  margin-right: 90px;
+}
+
+.h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  flex: 1;
+
+}
+
+.vertical {
+  border-left: 1.3px solid rgb(8, 8, 8);
+  height: 45px;
+  position:absolute;
+  left: 8%;
+}
+
+.module-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: normal;
+  /* line-height: 1.3; */
+  /* border-left: 1px solid #323232; */
+  padding-left: 18px;
+  display: inline-block;
+  margin-left: -2040px;
+  color: #030303;
+  float: left;
+  margin-top: 0.5px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 53%;
+  height: 40px;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 90px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.content a{
+  color: black;
+  padding: 4px 20px;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+}
+.content a:hover {background-color: white}
+/* .a{background-color:transparent ;} */
+.dropdown:hover .content {
+  display: block;
+}
+.dropdown-content a {
+  color: black;
+  padding: 4px 20px;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+}
+
+.dropdown-content a:hover {background-color: white}
+/* .a{background-color:transparent ;} */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+table {
+  width: 100%;
+  border: 1px solid;
+}
+
+/*  */
+
+  .react-html-table-to-excel {
+    display: none;
+  }
